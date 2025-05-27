@@ -70,10 +70,7 @@ body {
 
 .youtube-bg iframe {
   position: absolute;
-  top: -50%;
-  left: 0;
-  width: 200%;
-  height: 200%;
   object-fit: cover;
+  background-size: cover;
   
 }
