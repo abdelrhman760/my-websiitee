@@ -69,8 +69,20 @@ body {
 }
 
 .youtube-bg iframe {
-  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 200%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 120%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  z-index: -1;
   object-fit: cover;
-  background-size: cover;
-  
+  transform: scale(1.2); 
+  transform-origin: center;
 }
+
